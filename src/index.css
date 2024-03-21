@@ -1,31 +1,31 @@
 @font-face {
   font-family: Poppins-Bold;
-  src: url('./assets/fonts/Poppins-Bold.ttf');
+  src: url("./assets/fonts/Poppins-Bold.ttf");
 }
 
 @font-face {
   font-family: Poppins-BoldItalic;
-  src: url('./assets/fonts/Poppins-BoldItalic.ttf');
+  src: url("./assets/fonts/Poppins-BoldItalic.ttf");
 }
 
 @font-face {
   font-family: Poppins-ExtraBold;
-  src: url('./assets/fonts/Poppins-ExtraBold.ttf');
+  src: url("./assets/fonts/Poppins-ExtraBold.ttf");
 }
 
 @font-face {
   font-family: Poppins-ExtraBoldItalic;
-  src: url('./assets/fonts/Poppins-ExtraBoldItalic.ttf');
+  src: url("./assets/fonts/Poppins-ExtraBoldItalic.ttf");
 }
 
 @font-face {
   font-family: Poppins-Italic;
-  src: url('./assets/fonts/Poppins-Italic.ttf');
+  src: url("./assets/fonts/Poppins-Italic.ttf");
 }
 
 @font-face {
   font-family: Poppins-Regular;
-  src: url('./assets/fonts/Poppins-Regular.ttf');
+  src: url("./assets/fonts/Poppins-Regular.ttf");
 }
 
 :root {
@@ -36,6 +36,7 @@
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
   background-color: hsl(0, 0%, 94%);
+  color: black;
 
   --Purple: hsl(259, 100%, 65%);
   --Light_red: hsl(0, 100%, 67%);
@@ -56,6 +57,6 @@ body {
   margin: 0;
   display: flex;
   place-items: center;
-  min-width: 320px;
+  min-width: 375px;
   min-height: 100vh;
 }
